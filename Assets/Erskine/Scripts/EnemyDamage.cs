@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyDamage : MonoBehaviour
 {
     private double health = 100;
-    public int damageToPlayer = 1;
+    //public int damageToPlayer = 1;
     private GameObject collidedWith;
 
     //Pistol | Rifle | Shotgun | Sniper
@@ -62,6 +62,7 @@ public class EnemyDamage : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
+            //score.increaseScore();
         }
     }
 }
