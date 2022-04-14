@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Pistol1
+  - bulletPistol
+  - Shotgun1
+  - Sniper1
+  - BurstRifle1
+  - bulletShotgun
+  - bulletRifle
+  - bulletSniper
   layers:
   - Default
   - TransparentFX
@@ -15,9 +23,9 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - Bullet
+  - Player
+  - Weapon
   - 
   - 
   - 

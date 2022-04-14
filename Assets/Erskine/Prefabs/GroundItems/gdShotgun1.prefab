@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8819416601761634055}
   - component: {fileID: 1538120966188866457}
   - component: {fileID: 5735814482106406266}
-  - component: {fileID: 7994289817873459759}
+  - component: {fileID: 239742985196360948}
   m_Layer: 11
   m_Name: gdShotgun1
   m_TagString: Shotgun1
@@ -110,7 +110,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7994289817873459759
+--- !u!114 &239742985196360948
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,9 +119,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5915951048882781039}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62597bbddfa91db4aa5fce75e84f495b, type: 3}
+  m_Script: {fileID: 11500000, guid: 0903d443045ee0c46b4f600055f572bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   range: 0.1
   intensity: 5
   speed: 80
+  lifeSpan: 50

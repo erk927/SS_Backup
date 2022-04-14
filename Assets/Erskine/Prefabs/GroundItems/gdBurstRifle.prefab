@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2784664358960305614}
   - component: {fileID: 2530258418516589085}
-  - component: {fileID: 4566640747596656336}
   - component: {fileID: 5819685438902139525}
+  - component: {fileID: 5490054407897797149}
   m_Layer: 11
   m_Name: gdBurstRifle
   m_TagString: BurstRifle1
@@ -84,21 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4566640747596656336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6286833039098209912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62597bbddfa91db4aa5fce75e84f495b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  range: 0.1
-  intensity: 5
-  speed: 80
 --- !u!61 &5819685438902139525
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -125,3 +110,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8674811, y: 0.32730734}
   m_EdgeRadius: 0
+--- !u!114 &5490054407897797149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6286833039098209912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0903d443045ee0c46b4f600055f572bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 0.1
+  intensity: 5
+  speed: 80
+  lifeSpan: 50

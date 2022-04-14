@@ -10,10 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1668164713877839395}
   - component: {fileID: 4386364912109639581}
-  - component: {fileID: 7681519282821124320}
   - component: {fileID: 2033584592480843468}
   - component: {fileID: 3228759495754728462}
-  - component: {fileID: -6027362547397046869}
+  - component: {fileID: 3857154658817523657}
   m_Layer: 10
   m_Name: pfBullet_Pistol
   m_TagString: bulletPistol
@@ -75,30 +74,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 51399ed5283354748b2eee1e11454fd0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b4b9503f9cd4d241b49c32ed149447c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.44, y: 0.35}
+  m_Size: {x: 0.35, y: 0.44}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7681519282821124320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1361338055382531374}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97672a11478584d4191f290ebc463c46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 5
 --- !u!50 &2033584592480843468
 Rigidbody2D:
   serializedVersion: 4
@@ -133,10 +119,10 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.010341853, y: 0.013789013}
-  m_Size: {x: 0.16663581, y: 0.39415613}
-  m_Direction: 0
---- !u!114 &-6027362547397046869
+  m_Offset: {x: -0.0038142228, y: -0.0007171832}
+  m_Size: {x: 0.2783349, y: 0.1506813}
+  m_Direction: 1
+--- !u!114 &3857154658817523657
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,6 +131,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1361338055382531374}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bd76fb3c7e400041aa478575acbb72e, type: 3}
+  m_Script: {fileID: 11500000, guid: 89333d407a6561547a7bcfb3b33da2c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
