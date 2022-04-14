@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4198216948109572470}
   - component: {fileID: 599089233710504637}
   - component: {fileID: 5112154768677537740}
-  - component: {fileID: -8297777050983061472}
+  - component: {fileID: 4440911276599568781}
   m_Layer: 11
   m_Name: gdPistol1
   m_TagString: Pistol1
@@ -113,7 +113,7 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
---- !u!114 &-8297777050983061472
+--- !u!114 &4440911276599568781
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,8 +122,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5656398734656364748}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62597bbddfa91db4aa5fce75e84f495b, type: 3}
+  m_Script: {fileID: 11500000, guid: 0903d443045ee0c46b4f600055f572bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frequency: 0.06
-  intensity: 4
+  range: 0.1
+  intensity: 5
+  speed: 80
+  lifeSpan: 50
