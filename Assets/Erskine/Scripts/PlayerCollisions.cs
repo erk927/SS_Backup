@@ -16,7 +16,7 @@ public class PlayerCollisions : MonoBehaviour
         GameObject collidedWith = other.gameObject;
 
         //Equip weapon on contact and remove from ground
-        if (collidedWith.layer == 11){//Weapon layer
+        if (collidedWith.layer == 12){//Weapon layer
             Destroy(collidedWith);
             wSwap.checkTag(collidedWith.tag);
         }
