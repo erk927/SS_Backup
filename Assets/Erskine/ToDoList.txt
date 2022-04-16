@@ -1,0 +1,2 @@
+- Set up multiple camera's. One for each room. Then, switch camera's as place changes room.
+    - Or, set camera to follow player, but change viewspace depending on whish room he's in.

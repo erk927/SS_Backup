@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 5536327165285903877}
   - component: {fileID: 5536327165285903878}
   - component: {fileID: 5536327165285903879}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: pfPistol
   m_TagString: Pistol1
   m_Icon: {fileID: 0}

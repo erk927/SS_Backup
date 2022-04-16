@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 2066949673408263230}
   - component: {fileID: 2066949673408263229}
   - component: {fileID: 3448091432996161355}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: pfSniper1
   m_TagString: Sniper1
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f577b46a175724fb617e1ae6113554, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pfBullet: {fileID: 2051628159972503069, guid: c5f4be7339f1b1b48b381d4f894885ba, type: 3}
+  pfBullet: {fileID: 2051628159972503069, guid: bdd48de0c055d214f8c297cdb8f3dcd7, type: 3}
   bulletSpeed: 15
   lr: {fileID: 5281409999885657872}
 --- !u!1 &7634682080205922103
