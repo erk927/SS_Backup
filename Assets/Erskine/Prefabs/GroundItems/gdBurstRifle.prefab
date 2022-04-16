@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2530258418516589085}
   - component: {fileID: 5819685438902139525}
   - component: {fileID: 5490054407897797149}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: gdBurstRifle
   m_TagString: BurstRifle1
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6286833039098209912}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.911266, y: -0.6691361, z: 3.7465992}
+  m_LocalPosition: {x: -0.911266, y: -0.6691361, z: 2}
   m_LocalScale: {x: 1.1, y: 1.1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

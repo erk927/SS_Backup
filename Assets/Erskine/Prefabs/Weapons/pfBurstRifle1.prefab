@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 3707325997134076416}
   - component: {fileID: 8776001233535032069}
   - component: {fileID: 4786480577158890414}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: pfBurstRifle1
   m_TagString: BurstRifle1
   m_Icon: {fileID: 0}
