@@ -1,2 +1,5 @@
 - Set up multiple camera's. One for each room. Then, switch camera's as place changes room.
+    -If do above, would have to update camera attached to reticule script
     - Or, set camera to follow player, but change viewspace depending on whish room he's in.
+- Sounds
+- Weapon skins
