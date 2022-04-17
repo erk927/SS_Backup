@@ -12,6 +12,7 @@ TagManager:
   - bulletShotgun
   - bulletRifle
   - bulletSniper
+  - RifleAuto
   layers:
   - Default
   - TransparentFX

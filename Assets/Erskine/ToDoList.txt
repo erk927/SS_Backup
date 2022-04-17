@@ -2,4 +2,7 @@
     -If do above, would have to update camera attached to reticule script
     - Or, set camera to follow player, but change viewspace depending on whish room he's in.
 - Sounds
-- Weapon skins
+- Weapon textures: Razah has to make them bigger
+- Center reticule
+- Flip wapon properly so barrel lines up
+- Setup enemy to attack when in range

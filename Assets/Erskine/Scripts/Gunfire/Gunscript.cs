@@ -8,17 +8,20 @@ public class Gunscript : MonoBehaviour
     //Attributes
     [SerializeField] private GameObject pfBullet;
     [SerializeField] private float bulletSpeed;
+    private AudioSource pistolShot;
     private Transform barrel;
 
     private void Start() {
         barrel = this.gameObject.transform.GetChild(0);
+        pistolShot = gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse1)){
+        if (Input.GetButtonDown("Fire1")){
             FireBullet();
+            pistolShot.Play();
         }
     }
 
