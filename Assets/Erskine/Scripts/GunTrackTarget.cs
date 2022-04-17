@@ -12,7 +12,7 @@ public class GunTrackTarget : MonoBehaviour
     void Update()
     {
         pistol = gameObject.GetComponentInChildren<SpriteRenderer>();
-        float angle = gameObject.GetComponentInParent<PlayerFacing>().angle;
+        float angle = gameObject.GetComponentInParent<PlayerDirection>().angle;
         
         //Flips gun sprite when looking left
         if (pistol != null){ 
