@@ -23,6 +23,7 @@ public class PlayerActiveTracking : MonoBehaviour//Current state is for a single
         //Trying something simple
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
 
+
         /*//This code needs to be tested and should be generic as possible
         if (player.transform.position.y > enemy.transform.position.y && player.transform.position.x < enemy.transform.position.x) //Is player above and left of enemy?
         {

@@ -33,7 +33,11 @@ public class playerScore : MonoBehaviour
          *      if(player.score > highScore[i]
          *      {
          *          shiftScores(i);
-         * 
+         *          highScore[i] = player.score;
+         *          write to file;
+         *          break;
+         *      }
+         *  }
          */
     }
 
