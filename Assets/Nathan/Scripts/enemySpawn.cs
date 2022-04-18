@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class enemySpawn : MonoBehaviour
 {
-    gameObject[3] enemies;
+    //Perhaps attach to an 'invisible' object on tile map and allocate position from there?
+
+    gameObject[3] enemies;//How does Erk put weapons/etc in arrays?
 
     // Start is called before the first frame update
     void Start()
