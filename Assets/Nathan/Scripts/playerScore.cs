@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class playerScore : MonoBehaviour
 {
-    //private int[10] highScores;
+    //private int score;
 
     // Start is called before the first frame update
     void Start()
@@ -22,10 +22,10 @@ public class playerScore : MonoBehaviour
 
     void loadScores()
     {
-
+        //read from file if file exists
     }
 
-    void saveScore()
+    void saveScore(int[] highScores)
     {
         //loop over highScores,
         /*for(int i = 0; i < highScores.length && i < 10; i++)
@@ -48,4 +48,16 @@ public class playerScore : MonoBehaviour
             highScores[index] = highScores[index - 1];
         }*/
     }
+
+    // Method to increase score
+    /*void increaseScore()
+    {
+        score += 100;
+    }
+
+    int getScore()
+    {
+        return score;
+    }
+    */
 }
