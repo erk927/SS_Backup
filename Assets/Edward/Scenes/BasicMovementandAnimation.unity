@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 1330233165}
   - component: {fileID: 1330233167}
   m_Layer: 0
-  m_Name: Enemy_Melee_Sprite_0
+  m_Name: Basic_Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
