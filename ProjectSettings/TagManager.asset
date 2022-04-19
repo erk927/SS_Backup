@@ -13,6 +13,9 @@ TagManager:
   - bulletRifle
   - bulletSniper
   - RifleAuto
+  - enemyBasic
+  - enemyRanged
+  - enemyElite
   layers:
   - Default
   - TransparentFX
@@ -27,8 +30,8 @@ TagManager:
   - Bullet
   - Player
   - Weapon
-  - 
-  - 
+  - Enemy
+  - Item
   - 
   - 
   - 
