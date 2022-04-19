@@ -16,6 +16,9 @@ TagManager:
   - enemyBasic
   - enemyRanged
   - enemyElite
+  - itemHealth
+  - itemShield
+  - itemUntouchable
   layers:
   - Default
   - TransparentFX
