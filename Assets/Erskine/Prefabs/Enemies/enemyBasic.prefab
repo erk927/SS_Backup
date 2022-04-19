@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4565099517743231708}
   - component: {fileID: 4565099517743231699}
-  - component: {fileID: 4565099517743231698}
-  - component: {fileID: 4565099517743231697}
   - component: {fileID: 4565099517743231709}
-  m_Layer: 0
+  - component: {fileID: 4565099517743231697}
+  - component: {fileID: 4565099517743231698}
+  m_Layer: 13
   m_Name: enemyBasic
-  m_TagString: Untagged
+  m_TagString: enemyBasic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85,6 +85,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &4565099517743231709
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4565099517743231696}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.060348906, y: -0.06034851}
+  m_Size: {x: 1.7937195, y: 3.7058122}
+  m_Direction: 0
+--- !u!114 &4565099517743231697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4565099517743231696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ab9a35990610949b20d0cf4296435e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.5
+  lerpSpeed: 0.3
 --- !u!114 &4565099517743231698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,33 +133,3 @@ MonoBehaviour:
   - {fileID: 4464583639939814006, guid: 6e87240acf34e9740b7f322d6011b25c, type: 3}
   - {fileID: 5915951048882781039, guid: 80b9cdaec2f11774d95108d6f6445e8a, type: 3}
   - {fileID: 88432532218502692, guid: 54dfafeb307444848b9b70d780fb5b99, type: 3}
---- !u!114 &4565099517743231697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4565099517743231696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9ab9a35990610949b20d0cf4296435e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.5
-  lerpSpeed: 0.3
---- !u!70 &4565099517743231709
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4565099517743231696}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.060348906, y: -0.06034851}
-  m_Size: {x: 1.7937195, y: 3.7058122}
-  m_Direction: 0
