@@ -59,8 +59,7 @@ public class EnemyDamage : MonoBehaviour
     //Decides what to 'drop' when enemy dies
     void dropOnDeath()
     {
-        //int num = Random.Range(0, 100);
-        int num = 10;
+        int num = Random.Range(0, 100);
 
         if(num <= 50 && num > 32)
         {
