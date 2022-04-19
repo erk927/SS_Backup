@@ -3234,9 +3234,9 @@ GameObject:
   - component: {fileID: 229405078}
   - component: {fileID: 229405077}
   - component: {fileID: 229405081}
-  m_Layer: 13
+  m_Layer: 0
   m_Name: enemyBasic
-  m_TagString: enemyBasic
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
