@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class playerScore : MonoBehaviour
 {
-    private int[10] highScores;
+    //private int[10] highScores;
 
     // Start is called before the first frame update
     void Start()
@@ -43,9 +43,9 @@ public class playerScore : MonoBehaviour
 
     private void shiftScores(int i)
     {
-        for(int index = highScores.length; index > i; index--)
+        /*for(int index = highScores.length; index > i; index--)
         {
             highScores[index] = highScores[index - 1];
-        }
+        }*/
     }
 }
