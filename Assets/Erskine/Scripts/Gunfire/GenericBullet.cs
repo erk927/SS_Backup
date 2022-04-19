@@ -22,7 +22,7 @@ public class GenericBullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other) {
         Destroy(gameObject);
-        if (other.gameObject.tag == "Enemy"){
+        if (other.gameObject.layer == 13){
             CameraShaker.Instance.ShakeOnce(4f, 2f, 0.1f, 1f);
             GameObject blood = Instantiate(impactEffect, transform.position, transform.rotation);
             Destroy(blood, 0.5f);
