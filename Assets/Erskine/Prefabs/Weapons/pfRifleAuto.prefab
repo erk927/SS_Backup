@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 4839493916604180233}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.2539353, y: -1.7791854, z: -1.5200626}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children:
   - {fileID: 6802346396548942887}
   m_Father: {fileID: 0}
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7226340803688234324, guid: 3e2205e70dbedfc4dbce7f49b6fd4995, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f475531142828b34bb436cc77615e616, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -99,8 +99,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pfBullet: {fileID: 5667567290928619141, guid: bc01a8902b5303e4c9083e55afab0c9e, type: 3}
   bulletSpeed: 20
-  burstSize: 0
-  burstSpeed: 0
   fireDelay: 0.17
 --- !u!82 &7389505305861324984
 AudioSource:
@@ -222,7 +220,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5747676583799396997}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.662, y: 0.096, z: 0}
+  m_LocalPosition: {x: 0.84, y: 0.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7595596139572084782}

@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerDamage : MonoBehaviour
 {
     private int playerHealth = 100;
+    private int playerShield = 100;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,14 @@ public class PlayerDamage : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void setHealth(int health){
+        playerHealth = health;
+    }
+
+    public void setShield(int shield){
+        playerShield = shield;
     }
 
     //Collision check for what damage modifier to use
