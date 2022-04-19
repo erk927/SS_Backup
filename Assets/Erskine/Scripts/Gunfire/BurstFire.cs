@@ -26,6 +26,7 @@ public class BurstFire : MonoBehaviour
     {
         if ((Input.GetButtonDown("Fire1")) && canFire){
             canFire = false;
+            shot.Play();
             StartCoroutine(fire());
         }
     }
@@ -36,7 +37,6 @@ public class BurstFire : MonoBehaviour
             GameObject bullet = Instantiate(pfBullet, barrel.position, barrel.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             rb.AddForce(barrel.right * bulletSpeed, ForceMode2D.Impulse);
-            shot.Play();
             count++;
             yield return new WaitForSeconds(burstSpeed);
         }
