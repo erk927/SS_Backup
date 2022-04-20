@@ -6,7 +6,7 @@ public class EnemyDamage : MonoBehaviour
 {
     private double health = 100;
     [SerializeField] private GameObject[] gdWeapons;
-    //[SerializeField] private GameObject[] gdItems;
+    [SerializeField] private GameObject[] gdItems;
     private GameObject collidedWith;
 
     //Pistol | RifleBurst | Shotgun | Sniper | RifleAuto
@@ -61,19 +61,19 @@ public class EnemyDamage : MonoBehaviour
     {
         int num = Random.Range(0, 100);
 
-        if(num <= 50 && num > 32)
+        if(num <= 50 && num > 32)//Probability to drop 'Health'
         {
-            //Instantiate(gdItems[0], gameObject.transform.position, Quaternion.identity);
+            Instantiate(gdItems[0], gameObject.transform.position, Quaternion.identity);
         }
 
-        if (num <= 32 && num > 22)
+        if (num <= 32 && num > 22)//'Shield'
         {
-            //Instantiate(gdItems[1], gameObject.transform.position, Quaternion.identity);
+            Instantiate(gdItems[1], gameObject.transform.position, Quaternion.identity);
         }
 
-        if (num <= 22 && num > 15)
+        if (num <= 22 && num > 15)//'Invincibility'
         {
-            //Instantiate(gdItems[2], gameObject.transform.position, Quaternion.identity);
+            Instantiate(gdItems[2], gameObject.transform.position, Quaternion.identity);
         }
 
         if (num <= 15 && num > 12)
