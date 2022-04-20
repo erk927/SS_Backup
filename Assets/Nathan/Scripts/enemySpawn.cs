@@ -6,13 +6,14 @@ public class enemySpawn : MonoBehaviour
 {
     //Perhaps attach to an 'invisible' object on tile map and allocate position from there?
 
-    //gameObject[3] enemies;//How does Erk put weapons/etc in arrays?
+    [SerializeField] GameObject[] enemies;//How does Erk put weapons/etc in arrays?
+    public float delay = 1.0f;
 
     // Start is called before the first frame update
     void Start()
     {
         //get Enemies for map and add to the gameObject array enemies
-        //InvokeRepeating("spawn", 1f, 3f);
+        InvokeRepeating("spawn", 1.0f, delay);
     }
 
     // Update is called once per frame
@@ -21,21 +22,21 @@ public class enemySpawn : MonoBehaviour
         
     }
 
-    /*void spawn()
+    void spawn()
     {
-        var random = new Random();
-        int num = random.Next(0, 100);
+        int num = Random.Range(0, 100);//Generate random number
+
         if(num >= 90)//Spawn Elite
         {
-            Instantiate(enemies[2], transform.position, transform.position.y);
+            Instantiate(enemies[0], gameObject.transform.position, Quaternion.identity);
         }
         if(num < 90 && num >= 60)//Spawn 'Spitter'
         {
-            Instantiate(enemies[1]);
+            Instantiate(enemies[1], gameObject.transform.position, Quaternion.identity);
         }
         else //Spawn regular
         {
-            Intantiate(enemies[0]);//Should be Instantiate(enemyObject, spawnPosition);
+            Instantiate(enemies[2], gameObject.transform.position, Quaternion.identity);
         }
-    }*/
+    }
 }
