@@ -16,7 +16,7 @@ public class ItemShield : MonoBehaviour
         Physics2D.IgnoreLayerCollision(14, 13);//enemies
         Physics2D.IgnoreLayerCollision(14, 10);//bullets
 
-        playerShield.setShield(100);
+        playerShield.activateShield();
         Destroy(gameObject);
     }
 }

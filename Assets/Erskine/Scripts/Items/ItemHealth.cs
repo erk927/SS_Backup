@@ -17,7 +17,7 @@ public class ItemHealth : MonoBehaviour
         Physics2D.IgnoreLayerCollision(14, 13);//enemies
         Physics2D.IgnoreLayerCollision(14, 10);//bullets
 
-        playerHealth.setHealth(100);
+        playerHealth.restoreHealth();
         Destroy(gameObject);
     }
 }
