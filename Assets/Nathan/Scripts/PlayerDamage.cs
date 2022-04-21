@@ -21,10 +21,14 @@ public class PlayerDamage : MonoBehaviour
 
     public void setHealth(int health){
         playerHealth = health;
+        Debug.Log("health restored");
+        Debug.Log(playerHealth);
     }
 
     public void setShield(int shield){
         playerShield = shield;
+        Debug.Log("Shield activated");
+        Debug.Log(playerShield);
     }
 
     //Collision check for what damage modifier to use
@@ -44,22 +48,47 @@ public class PlayerDamage : MonoBehaviour
         if (collision.gameObject.tag == "enemyBasic")//Medium damage
         {
             //if(floor(currentScore/1000) > 0) increase playerdamage += 10*currentScore/1000;
-            playerHealth -= damage * 50;
-            Debug.Log(playerHealth);
+            if(playerShield > 0)
+            {
+                damageShield(damage*10);
+            }
+            else damagePlayer(damage * 10);
+            //Debug.Log(playerHealth);
         }
         if (collision.gameObject.tag == "enemyRanged")//Small damage
         {
-            playerHealth -= (damage * 25);
+           if(playerShield > 0)
+            {
+                damageShield(damage*10);
+            }
+            else damagePlayer(damage * 10);
         }
         if (collision.gameObject.tag == "enemyElite")//Full damage
         {
-            playerHealth -= damage * 100;
+            if(playerShield > 0)
+            {
+                damageShield(damage*10);
+            }
+            else damagePlayer(damage * 10);
         }
         //If health drops to/below 0, enemy is removed
         if (playerHealth <= 0)
         {
-            //load game over, check if score should be saved to high scores(take player name/initials);
-            //player.saveScore();
+            Time.timeScale = 0;
         }
+    }
+
+    //Damage shield instead of player
+    void damageShield(int damage)
+    {
+        playerShield -= damage;
+        Debug.Log(playerShield);
+    }
+
+    //Damage player
+    void damagePlayer(int damage)
+    {
+        playerHealth -= damage;
+        Debug.Log(playerHealth);
     }
 }

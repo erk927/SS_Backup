@@ -19,7 +19,7 @@ public class PlayerActiveTracking : MonoBehaviour//Current state is for a single
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         //Trying something simple
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);

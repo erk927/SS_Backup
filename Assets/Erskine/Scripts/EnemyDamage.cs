@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyDamage : MonoBehaviour
 {
-    private double health = 100;
+    private double health = 10;
     [SerializeField] private GameObject[] gdWeapons;
     [SerializeField] private GameObject[] gdItems;
     private GameObject collidedWith;
