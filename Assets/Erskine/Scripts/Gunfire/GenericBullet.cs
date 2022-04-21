@@ -16,6 +16,7 @@ public class GenericBullet : MonoBehaviour
         Physics2D.IgnoreLayerCollision(10,10); //Stops bullets colliding w/ eachother
         Physics2D.IgnoreLayerCollision(10,11); // player
         Physics2D.IgnoreLayerCollision(10,12); // weapons
+        Physics2D.IgnoreLayerCollision(10,14); // Items
 
         cam = FindObjectOfType<Camera>();
     }

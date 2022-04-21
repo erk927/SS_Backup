@@ -10,7 +10,7 @@ public class ItemHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerDamage>();
+        playerHealth = GameObject.FindWithTag("Player").GetComponent<PlayerDamage>();
     }
 
     private void OnCollisionEnter2D(Collision2D other) {
