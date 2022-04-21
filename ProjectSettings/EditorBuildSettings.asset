@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/David/Scenes/Main_Menu.unity
     guid: dbfbf7c1cb8360d48bae764b69684a5f
   - enabled: 1
+    path: Assets/David/Scenes/Map_Selection.unity
+    guid: 084f92422faa3da479c99dbf0160d91c
+  - enabled: 1
     path: Assets/David/Scenes/Level_1.unity
     guid: 9ccdd0ff1393ed041b7b7940be3135f1
+  - enabled: 1
+    path: Assets/David/Scenes/Level_2.unity
+    guid: abb3195397e420e4da6a530854100f5e
   m_configObjects: {}
