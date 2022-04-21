@@ -4,28 +4,35 @@ using UnityEngine;
 
 public class EnemyDamage : MonoBehaviour
 {
-    private double health = 10;
+
+    //***** Data Fields 
     [SerializeField] private GameObject[] gdWeapons;
     [SerializeField] private GameObject[] gdItems;
     private GameObject collidedWith;
+    private float health = 10;// base enemy health
+    private float damage = 10;// base damage enemy does
 
     //Pistol | RifleBurst | Shotgun | Sniper | RifleAuto
     private int[] weaponDamage = new int[]{10, 10, 10, 10, 10};
 
+
     // Start is called before the first frame update
     void Start(){
-        //if(floor(currentScore/1000) > 0) increase enemyhealth += 10*currentScore/1000;
-        if (gameObject.tag == "enemyElite")
-        {
-            health *= 2;
-        }
-        if (gameObject.tag == "enemyRanged")
-        {
-            health *= .75;
-        }
+        //These if's scale enemy damage & health with their type
+        if (gameObject.tag == "enemyElite"){ health *= 2; damage *= 3; }
+        if (gameObject.tag == "enemyRanged"){ health *= .75f; damage *= 2; }
+        if (gameObject.tag == "omarion"){ health *= 10; damage *= 5; }
 
+        //Enemies cannot collide with ground items or weapons
         Physics2D.IgnoreLayerCollision(13, 12);
         Physics2D.IgnoreLayerCollision(13, 14);
+
+        //if(floor(currentScore/1000) > 0) increase enemyhealth += 10*currentScore/1000;
+    }
+
+    //Returns damage enemy type inflicts
+    public float getDamage(){
+        return damage;
     }
 
     //Collision check for what damage modifier to use
