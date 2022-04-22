@@ -1,19 +1,25 @@
-- Sounds (at least music)
-- Center reticule
+- Make final map
 - Flip weapons properly so barrel lines up [gunTrackTarget]
-- Setup enemy to attack when in range
- - Range enemy, basic, elite, Omarion
-- 
+- Sounds (at least music)
+
+- Center reticule
+- Elite, Omarion
+- Scene transitions
+
+
+- Increase speed of basic enemy attack animations. (possibly make hitbox bigger)
 
 
 
-
-
-
-
------ ****** Completed ***** -----
+----- ***** Completed ***** -----
 • Set up health bar visual
 • Simplified PlayerDamage
 • Connected healthbar to player health
 • Set up shield bar visual
 • Connected shield bar to shield health
+
+• Added knockback
+• basicEnemy attack animation
+• rangedEnemy attack and animation
+• 
+----- ********************** -----

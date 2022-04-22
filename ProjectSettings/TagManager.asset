@@ -21,6 +21,7 @@ TagManager:
   - itemUntouchable
   - healthBar
   - shieldBar
+  - reticle
   layers:
   - Default
   - TransparentFX

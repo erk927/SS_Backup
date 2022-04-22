@@ -11,11 +11,12 @@ public class PlayerDamage : MonoBehaviour
     private float playerShield = 0;
     private float damageTaken;//damage from enemy
     private GameObject collidedWith;//object collided with
+    [SerializeField]private float knockbackAmount = 5.0f;
 
     // Health and Shield bars \\
-    public Slider healthSlider;
-    public Slider shieldSlider;
-    public GameObject shieldBar;
+    private Slider healthSlider;
+    private Slider shieldSlider;
+    private GameObject shieldBar;
 
 
     // Start is called before the first frame update
@@ -29,7 +30,7 @@ public class PlayerDamage : MonoBehaviour
 
         //Sets up shield bar
         shieldBar = GameObject.FindGameObjectWithTag("shieldBar");
-        shieldSlider = GameObject.FindGameObjectWithTag("shieldBar").GetComponent<Slider>();
+        shieldSlider = shieldBar.GetComponent<Slider>();
         shieldSlider.maxValue = _MAXHEALTH;
         shieldBar.SetActive(false);
     }
@@ -49,18 +50,6 @@ public class PlayerDamage : MonoBehaviour
         Debug.Log("Shield activated: " + playerShield);
     }
 
-    //Collision check for what damage modifier to use
-    void OnCollisionEnter2D(Collision2D collision){
-        collidedWith = collision.gameObject;
-        if (collidedWith.layer == 13){//enemy layer
-            damageTaken = collidedWith.GetComponent<EnemyDamage>().getDamage();// gets damage from EnemyDamage class
-            if (playerShield > 0){//damages shield if active
-                damageShield(damageTaken);
-            }else
-                damagePlayer(damageTaken);//damage player if shield inactive
-        }
-    }
-
     //Damage shield if active
     void damageShield(float damage){
         playerShield -= damage;
@@ -76,6 +65,35 @@ public class PlayerDamage : MonoBehaviour
         playerHealth -= damage;
         healthSlider.value = playerHealth;//ui
         Debug.Log("Health: " + playerHealth);
+
+        if (playerHealth <= 0){
+            Debug.Log("Player Died");
+        }
+    }
+
+    //Collision check for what damage modifier to use
+    void OnCollisionEnter2D(Collision2D collision){
+        collidedWith = collision.gameObject;
+
+        //On collision with enemy
+        if (collidedWith.layer == 13){//enemy layer
+            damageTaken = collidedWith.GetComponent<EnemyDamage>().getDamage();// gets damage from EnemyDamage class
+            if (playerShield > 0){//damages shield if active
+                damageShield(damageTaken);
+            }else{
+                damagePlayer(damageTaken);//damages player if shield inactive
+            }
+            Vector2 direction = (this.transform.position - collidedWith.transform.position).normalized;
+            this.transform.Translate(direction * knockbackAmount);//Knocks player backward
+        }
+        else if (collidedWith.tag == "enemyRanged"){
+            damageTaken = collidedWith.GetComponent<EnemyRangedAttack>().getDamage();
+            if (playerShield > 0){//damages shield if active
+                damageShield(damageTaken);
+            }else{
+                damagePlayer(damageTaken);//damages player if shield inactive
+            }
+        }
     }
 }
 
