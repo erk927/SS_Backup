@@ -10,7 +10,7 @@ public class CameraTrackPlayer : MonoBehaviour
     public Transform player;
     
     private void Start() {
-        Camera.main.orthographicSize = 2.8f;//Reduces camera size
+        Camera.main.orthographicSize = 5f;//Reduces camera size
     }
 
     // Update is called once per frame
