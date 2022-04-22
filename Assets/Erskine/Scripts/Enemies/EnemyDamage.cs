@@ -27,7 +27,11 @@ public class EnemyDamage : MonoBehaviour
         Physics2D.IgnoreLayerCollision(13, 12);
         Physics2D.IgnoreLayerCollision(13, 14);
 
-        //if(floor(currentScore/1000) > 0) increase enemyhealth += 10*currentScore/1000;
+        //Increase enemy health as score increases
+        GameObject score = GameObject.FindGameObjectWithTag("score");
+        playerScore player = score.GetComponent<playerScore>();
+        health += 10*(player.getScore()/1000);
+
     }
 
     //Returns damage enemy type inflicts
@@ -58,7 +62,11 @@ public class EnemyDamage : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
-            //score.increaseScore();
+            
+            GameObject score = GameObject.FindGameObjectWithTag("score");
+            playerScore player = score.GetComponent<playerScore>();
+            player.increaseScore();
+            
             dropOnDeath();
         }
     }
