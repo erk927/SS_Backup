@@ -9,10 +9,10 @@ public class EnemyRangedAttack : MonoBehaviour
     private float damage = 10f;
 
     // Start is called before the first frame update
-    void Start(){
+    private void Awake() {
         Object.Destroy(gameObject, destroyTime);
         Physics2D.IgnoreLayerCollision(10,10); //Stops bullets colliding w/ eachother
-        Physics2D.IgnoreLayerCollision(10,13); // enemies
+        // Physics2D.IgnoreLayerCollision(10,13); // enemies
         Physics2D.IgnoreLayerCollision(10,12); // weapons
         Physics2D.IgnoreLayerCollision(10,14); // Items
 
