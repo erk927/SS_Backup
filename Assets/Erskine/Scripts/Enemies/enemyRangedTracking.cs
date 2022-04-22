@@ -4,23 +4,32 @@ using UnityEngine;
 
 public class enemyRangedTracking : MonoBehaviour
 {
-public float speed = 1f;//Enemy speed, shoud be able to modify it with a difficulty setting
+    //Data Fields
     public float lerpSpeed = 0.3f;
-
-    [HideInInspector] public float angle;
-    public Animator animator;
+    public float speed = 1f;//Enemy speed, shoud be able to modify it with a difficulty setting
     GameObject player;
+
+    [SerializeField]private float attackRange = 1f;
+    private float distanceToPlayer;
+    private Animator animator;
+    private float angle;
+    
+    [SerializeField] private GameObject pfBullet;
+    [SerializeField] private float bulletSpeed;
+    public float fireDelay = 1f;
+    private Transform barrel;
+    bool canFire = true;
 
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("Player");//FInd the player object
+        player = GameObject.FindWithTag("Player");//FInd the player object
         animator = gameObject.GetComponent<Animator>();
+        barrel = GameObject.FindWithTag("rangedBarrel").GetComponent<Transform>();;
     }
 
     // Update is called once per frame
-    void FixedUpdate()
-    {
+    void FixedUpdate(){
         //Trying something simple
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
         angle = AngleBetweenPoints(transform.position, player.transform.position);//Angle b/t player and enemy
@@ -29,8 +38,13 @@ public float speed = 1f;//Enemy speed, shoud be able to modify it with a difficu
 
     //Changes character animation depending on where the mouse cursor is
     public void changeDirection(){
+        distanceToPlayer = Vector2.Distance(player.transform.position, transform.position);
 
-        if (angle > 31 && angle < 150){// up
+        if (distanceToPlayer < attackRange && canFire){
+            canFire = false;
+            StartCoroutine(attack());
+        }
+        else if (angle > 31 && angle < 150){// up
             animator.Play("range_enemy_back_walk");
         }
         else if (angle > 210.1 && angle < 330){//down
@@ -44,6 +58,17 @@ public float speed = 1f;//Enemy speed, shoud be able to modify it with a difficu
         }
         else
             animator.Play("range_enemy_walk");//failcase
+    }
+
+    IEnumerator attack(){
+        float orignalSpeed = speed;
+        speed = 0;
+        GameObject bullet = Instantiate(pfBullet, barrel.position, barrel.rotation);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        rb.AddForce(barrel.right * bulletSpeed, ForceMode2D.Impulse);
+        yield return new WaitForSeconds(fireDelay);
+        canFire = true;
+        speed = orignalSpeed;
     }
 
     public float AngleBetweenPoints(Vector2 a, Vector2 b) {
