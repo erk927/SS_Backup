@@ -32,6 +32,7 @@ public class PlayerDamage : MonoBehaviour
         shieldSlider = GameObject.FindGameObjectWithTag("shieldBar").GetComponent<Slider>();
         shieldSlider.maxValue = _MAXHEALTH;
         shieldBar.SetActive(false);
+        
     }
 
     //Restores player health to _MAXHEALTH when called

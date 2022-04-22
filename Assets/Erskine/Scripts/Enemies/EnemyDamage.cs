@@ -58,7 +58,15 @@ public class EnemyDamage : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
-            //score.increaseScore();
+            Debug.Log("Trying to increase score");
+            playerScore score = GameObject.FindWithTag("Canvas").GetComponent<playerScore>();
+            if(score != null)
+            {
+                score.increaseScore();
+                Debug.Log("Increased score");
+            }
+            else Debug.Log("score is null");
+            
             dropOnDeath();
         }
     }

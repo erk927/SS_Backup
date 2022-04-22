@@ -21,6 +21,8 @@ TagManager:
   - itemUntouchable
   - healthBar
   - shieldBar
+  - score
+  - Canvas
   layers:
   - Default
   - TransparentFX
