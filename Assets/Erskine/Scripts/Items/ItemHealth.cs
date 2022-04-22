@@ -8,8 +8,7 @@ public class ItemHealth : MonoBehaviour
     private PlayerDamage playerHealth;
 
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start(){
         playerHealth = GameObject.FindWithTag("Player").GetComponent<PlayerDamage>();
     }
 

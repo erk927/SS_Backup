@@ -12,14 +12,37 @@
 
 
 ----- ***** Completed ***** -----
-• Set up health bar visual
-• Simplified PlayerDamage
-• Connected healthbar to player health
-• Set up shield bar visual
-• Connected shield bar to shield health
+- Camera Shake: attach to camera
+    -Place main camera in empty holder object  
+    -In script you want to cause camera to shake, add : CameraShaker.Instance.ShakeOnce(4f, 2f, 0.1f, 1f);
 
-• Added knockback
-• basicEnemy attack animation
-• rangedEnemy attack and animation
-• 
------ ********************** -----
+- Health/Shield bar UI: 
+    -Place Canvas prefab under camera
+    -Add camerea to canvas in inspector
+
+- GunTrackMouse: attach to object that will follow mouse position
+    -Rotates object to track mouse
+
+- ItemBob: attach to object you want to rotate and bounce
+
+- MousePosition: attach to mouse
+    -Attach camera in inspector
+
+- PlayerCollision: attach to player
+    -Gets teg from ground item collided with and passes to weaponSwap script on aim object
+
+- PlayerDirection: attach to player
+    -tracks mouse, rotates place to face mouse, and plays proper animation
+
+-PlayerMovement: attach to player
+    -Basic character movement script
+
+-WeaponSwap: attach to object you want gun to be child of
+    -Add prefab weapons to array in inspector
+    -Gets weapon tag from playerCollision with ground items and finds that gun in array
+    -Instatiates gun on player 
+
+-GenericBullet: attach to bullet prefabs
+    -Desctroys bullet on collision or after given time
+
+-
