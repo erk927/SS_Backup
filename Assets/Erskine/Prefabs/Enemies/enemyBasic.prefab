@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4565099517743231709}
   - component: {fileID: 4565099517743231697}
   - component: {fileID: 4565099517743231698}
+  - component: {fileID: 1362854925072116629}
   m_Layer: 13
   m_Name: enemyBasic
   m_TagString: enemyBasic
@@ -136,7 +137,7 @@ MonoBehaviour:
   speed: 0.5
   lerpSpeed: 0.3
   angle: 0
-  animator: {fileID: 0}
+  attackRange: 0.5
 --- !u!114 &4565099517743231698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,3 +160,24 @@ MonoBehaviour:
   - {fileID: 7567078037867469084, guid: b3478f7e8c2872745bfb54499f76daad, type: 3}
   - {fileID: 5470591224284288281, guid: 2661ca88114392c4e8d976d23244a99d, type: 3}
   - {fileID: 7665679858354954725, guid: c20831afec1f9fa458725666f6db4380, type: 3}
+--- !u!50 &1362854925072116629
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4565099517743231696}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7

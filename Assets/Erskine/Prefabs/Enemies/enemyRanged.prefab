@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 6852924368972058987}
   - component: {fileID: 6852924368972058986}
   - component: {fileID: 6852924368972058985}
+  - component: {fileID: -8387225665814369292}
   m_Layer: 13
   m_Name: enemyRanged
   m_TagString: enemyRanged
@@ -223,7 +224,7 @@ MonoBehaviour:
   attackRange: 4
   pfBullet: {fileID: 1272437580042571972, guid: eaab4051bec82e64b8f450f8cc98805d, type: 3}
   bulletSpeed: 5
-  fireDelay: 2
+  fireDelay: 0.5
 --- !u!114 &6852924368972058985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,5 +237,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7796e88192824e43a7ddcf201417622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gdWeapons: []
-  gdItems: []
+  gdWeapons:
+  - {fileID: 6286833039098209912, guid: 79fbf4399592b164882b17dc272774d7, type: 3}
+  - {fileID: 5656398734656364748, guid: 928d35d73a31efd4cb18a3dd0b32c805, type: 3}
+  - {fileID: 4464583639939814006, guid: 6e87240acf34e9740b7f322d6011b25c, type: 3}
+  - {fileID: 5915951048882781039, guid: 80b9cdaec2f11774d95108d6f6445e8a, type: 3}
+  - {fileID: 88432532218502692, guid: 54dfafeb307444848b9b70d780fb5b99, type: 3}
+  gdItems:
+  - {fileID: 7567078037867469084, guid: b3478f7e8c2872745bfb54499f76daad, type: 3}
+  - {fileID: 5470591224284288281, guid: 2661ca88114392c4e8d976d23244a99d, type: 3}
+  - {fileID: 7665679858354954725, guid: c20831afec1f9fa458725666f6db4380, type: 3}
+--- !u!50 &-8387225665814369292
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6852924368972058984}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7

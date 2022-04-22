@@ -63,7 +63,7 @@ public class playerScore : MonoBehaviour
         Debug.Log("Text updated");
     }
 
-    int getScore()
+    public int getScore()
     {
         return currentScore;
     }
