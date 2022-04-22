@@ -7,14 +7,20 @@ public class GunTrackTarget : MonoBehaviour
 
     //Child objects Weapon sprite
     private SpriteRenderer pistol;
+    private float angle;
+    private GameObject reticle;
     // private Transform weapon;
+
+    private void Start() {
+        reticle = GameObject.FindWithTag("reticle");
+    }
 
     // Update is called once per frame
     void Update()
     {
         // weapon = gameObject.transform.GetChild(0);
         pistol = gameObject.GetComponentInChildren<SpriteRenderer>();
-        float angle = gameObject.GetComponentInParent<PlayerDirection>().angle;
+        angle = AngleBetweenPoints(transform.position, reticle.transform.position);
         
         // Flips gun sprite when looking left
         if (pistol != null){ 
@@ -34,5 +40,9 @@ public class GunTrackTarget : MonoBehaviour
 
         //Rotates gun around player
         transform.rotation =  Quaternion.Euler (new Vector3(0f,0f,angle));
+    }
+
+    public float AngleBetweenPoints(Vector2 a, Vector2 b) {
+         return Mathf.Atan2(a.y - b.y, a.x - b.x) * Mathf.Rad2Deg + 180;
     }
 }
