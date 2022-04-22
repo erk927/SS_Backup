@@ -8,7 +8,7 @@ public class enemySpawn : MonoBehaviour
 
     [SerializeField] GameObject[] enemies;//How does Erk put weapons/etc in arrays?
     public float delay = 10f;
-    private int numEnemies = 9;
+    //private int numEnemies = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -25,8 +25,7 @@ public class enemySpawn : MonoBehaviour
 
     void spawn()
     {
-        if(numEnemies < 10)
-        {
+        
             int num = Random.Range(0, 100);//Generate random number
 
             if(num >= 90)//Spawn Elite
@@ -41,8 +40,5 @@ public class enemySpawn : MonoBehaviour
             {
                 Instantiate(enemies[2], gameObject.transform.position, Quaternion.identity);
             }
-            numEnemies++;
-        }
-        else CancelInvoke();
     }
 }

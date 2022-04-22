@@ -18,6 +18,8 @@ public class PlayerDamage : MonoBehaviour
     private Slider shieldSlider;
     private GameObject shieldBar;
 
+    //Star, itsa me, mama mia!
+    private bool star = false;
 
     // Start is called before the first frame update
     void Start(){
@@ -33,6 +35,21 @@ public class PlayerDamage : MonoBehaviour
         shieldSlider = shieldBar.GetComponent<Slider>();
         shieldSlider.maxValue = _MAXHEALTH;
         shieldBar.SetActive(false);
+        
+    }
+
+    public void activateStar()
+    {
+        star = true;
+        Debug.Log("star is " + star);
+        StartCoroutine(starTime());
+    }
+
+    IEnumerator starTime()
+    {
+        yield return new WaitForSeconds(3);
+        star = false;
+        Debug.Log("star is " + star + "should be false");
     }
 
     //Restores player health to _MAXHEALTH when called
@@ -72,26 +89,30 @@ public class PlayerDamage : MonoBehaviour
     }
 
     //Collision check for what damage modifier to use
-    void OnCollisionEnter2D(Collision2D collision){
-        collidedWith = collision.gameObject;
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(star == false)
+        {
+            collidedWith = collision.gameObject;
 
-        //On collision with enemy
-        if (collidedWith.layer == 13){//enemy layer
-            damageTaken = collidedWith.GetComponent<EnemyDamage>().getDamage();// gets damage from EnemyDamage class
-            if (playerShield > 0){//damages shield if active
-                damageShield(damageTaken);
-            }else{
-                damagePlayer(damageTaken);//damages player if shield inactive
+            //On collision with enemy
+            if (collidedWith.layer == 13){//enemy layer
+                damageTaken = collidedWith.GetComponent<EnemyDamage>().getDamage();// gets damage from EnemyDamage class
+                if (playerShield > 0){//damages shield if active
+                    damageShield(damageTaken);
+                }else{
+                    damagePlayer(damageTaken);//damages player if shield inactive
+                }
+                Vector2 direction = (this.transform.position - collidedWith.transform.position).normalized;
+                this.transform.Translate(direction * knockbackAmount);//Knocks player backward
             }
-            Vector2 direction = (this.transform.position - collidedWith.transform.position).normalized;
-            this.transform.Translate(direction * knockbackAmount);//Knocks player backward
-        }
-        else if (collidedWith.tag == "enemyRanged"){
-            damageTaken = collidedWith.GetComponent<EnemyRangedAttack>().getDamage();
-            if (playerShield > 0){//damages shield if active
-                damageShield(damageTaken);
-            }else{
-                damagePlayer(damageTaken);//damages player if shield inactive
+            else if (collidedWith.tag == "enemyRanged"){
+                damageTaken = collidedWith.GetComponent<EnemyRangedAttack>().getDamage();
+                if (playerShield > 0){//damages shield if active
+                    damageShield(damageTaken);
+                }else{
+                    damagePlayer(damageTaken);//damages player if shield inactive
+                }
             }
         }
     }

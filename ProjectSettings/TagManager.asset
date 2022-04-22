@@ -3,26 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Pistol1
-  - bulletPistol
-  - Shotgun1
-  - Sniper1
-  - BurstRifle1
-  - bulletShotgun
-  - bulletRifle
-  - bulletSniper
-  - RifleAuto
-  - enemyBasic
-  - enemyRanged
-  - enemyElite
-  - itemHealth
-  - itemShield
-  - itemUntouchable
-  - healthBar
-  - shieldBar
-  - reticle
-  - rangedBarrel
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -34,11 +15,11 @@ TagManager:
   - 
   - 
   - 
-  - Bullet
-  - Player
-  - Weapon
-  - Enemy
-  - Item
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
