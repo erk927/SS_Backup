@@ -59,10 +59,11 @@ public class EnemyDamage : MonoBehaviour
         {
             Destroy(gameObject);
             Debug.Log("Trying to increase score");
-            playerScore score = GameObject.FindWithTag("Canvas").GetComponent<playerScore>();
-            if(score != null)
+            GameObject score = GameObject.FindGameObjectWithTag("score");
+            playerScore player = score.GetComponent<playerScore>();
+            if(player != null)
             {
-                score.increaseScore();
+                player.increaseScore();
                 Debug.Log("Increased score");
             }
             else Debug.Log("score is null");
