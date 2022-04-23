@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Level_2 : MonoBehaviour
 {
     public void PlayLevel2 (){
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(5);
     }
 }
 
