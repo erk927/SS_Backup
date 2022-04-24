@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: 5362bc63dc3dc9b4c8545497dd7e121b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1015182955315311475
+    second: Elite_attack_0
+  - first:
+      213: 7871312342584372368
+    second: Elite_attack_1
+  - first:
+      213: -7016558894881871065
+    second: Elite_attack_2
+  - first:
+      213: 4768711641294036606
+    second: Elite_attack_3
+  - first:
+      213: 8237017517848197058
+    second: Elite_attack_4
+  - first:
+      213: -8929902097268432593
+    second: Elite_attack_5
+  - first:
+      213: 4501142563166682457
+    second: Elite_attack_6
+  - first:
+      213: 3895431898336631561
+    second: Elite_attack_7
+  - first:
+      213: -9123379675844457338
+    second: Elite_attack_8
+  - first:
+      213: 7300165311075703396
+    second: Elite_attack_9
+  - first:
+      213: -7638389948118933102
+    second: Elite_attack_10
+  - first:
+      213: 3283366797992977476
+    second: Elite_attack_11
+  - first:
+      213: 6927236256864026495
+    second: Elite_attack_12
+  - first:
+      213: 3628817219128092641
+    second: Elite_attack_13
+  - first:
+      213: 8089997266431712691
+    second: Elite_attack_14
+  - first:
+      213: -2906344695045939470
+    second: Elite_attack_15
+  - first:
+      213: -8428056537152665497
+    second: Elite_attack_16
+  - first:
+      213: 9101797238873538131
+    second: Elite_attack_17
+  - first:
+      213: -3235734037289059722
+    second: Elite_attack_18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elite_attack_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2526
+        width: 420
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c46661b7859e1f0800000000000000
+      internalID: -1015182955315311475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_1
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 2526
+        width: 420
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ca3ef1fd48c3d60800000000000000
+      internalID: 7871312342584372368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_2
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 2526
+        width: 459
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b65f44cdc20ae90800000000000000
+      internalID: -7016558894881871065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_3
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 2449
+        width: 533
+        height: 591
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ed997d8fddd2240800000000000000
+      internalID: 4768711641294036606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1842
+        width: 534
+        height: 572
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7f2087ac3cf4270800000000000000
+      internalID: 8237017517848197058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_5
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1837
+        width: 608
+        height: 596
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21ac4dea5d921480800000000000000
+      internalID: -8929902097268432593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_6
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1918
+        width: 459
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95df0f82055477e30800000000000000
+      internalID: 4501142563166682457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_7
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 1918
+        width: 420
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b94133caa5f0630800000000000000
+      internalID: 3895431898336631561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1309
+        width: 420
+        height: 517
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cc546c58e336180800000000000000
+      internalID: -9123379675844457338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_9
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1309
+        width: 420
+        height: 517
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46adb482ca56f4560800000000000000
+      internalID: 7300165311075703396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_10
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 1309
+        width: 459
+        height: 517
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291e476efccfef590800000000000000
+      internalID: -7638389948118933102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 626
+        width: 533
+        height: 591
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444eeade4bcd09d20800000000000000
+      internalID: 3283366797992977476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_12
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 626
+        width: 534
+        height: 572
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f369d6cac722060800000000000000
+      internalID: 6927236256864026495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_13
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 607
+        width: 552
+        height: 610
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e763f4d8062c5230800000000000000
+      internalID: 3628817219128092641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_14
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 702
+        width: 459
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd1b83b6a1754070800000000000000
+      internalID: 8089997266431712691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_15
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 94
+        width: 420
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe12f8f5e69aa7d0800000000000000
+      internalID: -2906344695045939470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_16
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 94
+        width: 420
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7684b14bb37890b80800000000000000
+      internalID: -8428056537152665497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_17
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1111
+        width: 38
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e30b88d54105e70800000000000000
+      internalID: 9101797238873538131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_attack_18
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1256
+        width: 597
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67abeb7690d5813d0800000000000000
+      internalID: -3235734037289059722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
