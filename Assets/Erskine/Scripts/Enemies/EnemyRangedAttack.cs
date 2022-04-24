@@ -7,6 +7,7 @@ public class EnemyRangedAttack : MonoBehaviour
     //Data Fields
     private float destroyTime = 1f;
     private float damage = 10f;
+    private Animator shot;
 
     // Start is called before the first frame update
     private void Awake() {
@@ -16,6 +17,10 @@ public class EnemyRangedAttack : MonoBehaviour
         Physics2D.IgnoreLayerCollision(10,12); // weapons
         Physics2D.IgnoreLayerCollision(10,14); // Items
 
+        shot = gameObject.GetComponent<Animator>();
+        if (shot != null){
+            shot.Play("Enemy_Projectile");
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D other) {
