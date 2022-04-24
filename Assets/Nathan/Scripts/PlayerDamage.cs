@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerDamage : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class PlayerDamage : MonoBehaviour
     private float damageTaken;//damage from enemy
     private GameObject collidedWith;//object collided with
     [SerializeField]private float knockbackAmount = 5.0f;
+    [SerializeField]GameObject deathscene;
 
     // Health and Shield bars \\
     private Slider healthSlider;
@@ -85,6 +87,8 @@ public class PlayerDamage : MonoBehaviour
 
         if (playerHealth <= 0){
             Debug.Log("Player Died");
+            Time.timeScale = 0;
+            deathscene.SetActive(true);
             GameObject score = GameObject.FindGameObjectWithTag("score");
             playerScore player = score.GetComponent<playerScore>();
             player.saveScore();

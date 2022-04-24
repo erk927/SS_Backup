@@ -3,7 +3,28 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - score
+  - Canvas
+  - healthBar
+  - shieldBar
+  - Pistol1
+  - Sniper1
+  - Shotgun1
+  - BurstRifle1
+  - RifleAuto
+  - bulletShotgun
+  - bulletRifle
+  - bulletPistol
+  - bulletSniper
+  - enemyBasic
+  - enemyRanged
+  - itemHealth
+  - itemShield
+  - itemUntouchable
+  - rangedBarrel
+  - reticle
+  - death
   layers:
   - Default
   - TransparentFX

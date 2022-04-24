@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/David/Scenes/Level_1.unity
     guid: 9ccdd0ff1393ed041b7b7940be3135f1
   - enabled: 1
+    path: Assets/Nathan/Scenes/PlayerDeath.unity
+    guid: 36526820afe877c48bb88c902102d50b
+  - enabled: 1
     path: Assets/David/Scenes/Cut_Scene2.unity
     guid: fe7ca3cb58009ce4aaf126985e845dad
   - enabled: 1
