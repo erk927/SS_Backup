@@ -222,7 +222,7 @@ MonoBehaviour:
   lerpSpeed: 0.3
   speed: 1
   attackRange: 4
-  pfBullet: {fileID: 1272437580042571972, guid: eaab4051bec82e64b8f450f8cc98805d, type: 3}
+  pfBullet: {fileID: 7705929932686480817, guid: ec7d7d3b71dc3744e8ad5a6af8976d00, type: 3}
   bulletSpeed: 5
   fireDelay: 0.5
 --- !u!114 &6852924368972058985
