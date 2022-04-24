@@ -8,11 +8,11 @@ public class Pause : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.M) && !isPaused)
+        if(Input.GetKeyDown(KeyCode.Escape) && !isPaused)
         {
             PauseGame();
         }
-        if(Input.GetKeyDown(KeyCode.M) && isPaused)
+        if(Input.GetKeyDown(KeyCode.Escape) && isPaused)
         {
             ResumeGame();
         }

@@ -13,10 +13,6 @@ public class playerScore : MonoBehaviour
     {
         currentScore = 0;
         Score.text = "Score: " + currentScore;
-
-        //file call, if file doesn't exist create
-        //if file is created highScores = {0,0,0,0,0,0,0,0,0,0}
-        //else loop over file and place ints in highScores;
     }
 
     // Update is called once per frame
@@ -25,42 +21,26 @@ public class playerScore : MonoBehaviour
         Score.text = "Score: " + currentScore; 
     }
 
-    void loadScores()
+    public void loadScore()
     {
-        //read from file if file exists
+        PlayerPrefs.GetInt("highscore");
     }
 
-    void saveScore(int[] highScores)
+    public void saveScore()
     {
-        //loop over highScores,
-        /*for(int i = 0; i < highScores.length && i < 10; i++)
-         *  {
-         *      if(player.score > highScore[i]
-         *      {
-         *          shiftScores(i);
-         *          highScore[i] = player.score;
-         *          write to file;
-         *          break;
-         *      }
-         *  }
-         */
-    }
-
-    private void shiftScores(int i)
-    {
-        /*for(int index = highScores.length; index > i; index--)
+        if(currentScore > PlayerPrefs.GetInt("highscore"))
         {
-            highScores[index] = highScores[index - 1];
-        }*/
+            PlayerPrefs.SetInt("highscore", currentScore);
+        }
     }
 
     //Method to increase score
     public void increaseScore()
     {
         currentScore += 100;
-        Debug.Log("Score increased");
+        //Debug.Log("Score increased");
         Score.text = "Score: " + currentScore;
-        Debug.Log("Text updated");
+        //Debug.Log("Text updated");
     }
 
     public int getScore()
