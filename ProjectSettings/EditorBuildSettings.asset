@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/MainScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/David/Scenes/Splash_Scene.unity
+    guid: 4f06436b673255845805a36c0c70125d
   - enabled: 1
     path: Assets/David/Scenes/Main_Menu.unity
     guid: dbfbf7c1cb8360d48bae764b69684a5f
