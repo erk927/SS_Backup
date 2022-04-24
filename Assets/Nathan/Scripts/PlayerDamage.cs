@@ -85,6 +85,9 @@ public class PlayerDamage : MonoBehaviour
 
         if (playerHealth <= 0){
             Debug.Log("Player Died");
+            GameObject score = GameObject.FindGameObjectWithTag("score");
+            playerScore player = score.GetComponent<playerScore>();
+            player.saveScore();
         }
     }
 
