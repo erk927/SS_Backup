@@ -25,6 +25,7 @@ TagManager:
   - rangedBarrel
   - reticle
   - death
+  - deathMessage
   layers:
   - Default
   - TransparentFX

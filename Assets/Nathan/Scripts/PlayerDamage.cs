@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class PlayerDamage : MonoBehaviour
 {
@@ -88,6 +87,27 @@ public class PlayerDamage : MonoBehaviour
         if (playerHealth <= 0){
             Debug.Log("Player Died");
             Time.timeScale = 0;
+            Debug.Log("Finding deathMessage");
+            GameObject deathMessage = GameObject.FindGameObjectWithTag("deathMessage");
+            if(deathMessage == null)
+            {
+                Debug.Log("deathMessage is null");
+            }
+            else
+            {    
+                Debug.Log("Pulling finalScore script");
+                finalScore final = deathMessage.GetComponent<finalScore>();
+                if(final == null)
+                {
+                    Debug.Log("final is null");
+                }
+                else 
+                {
+                    Debug.Log("Updating Textfield");
+                    final.Score();
+                }
+            }
+            Debug.Log("Attempting to make deathscene visible");
             deathscene.SetActive(true);
             GameObject score = GameObject.FindGameObjectWithTag("score");
             playerScore player = score.GetComponent<playerScore>();
