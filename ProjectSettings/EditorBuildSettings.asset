@@ -5,12 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/MainScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: Assets/David/Scenes/Splash_Scene.unity
-    guid: 4f06436b673255845805a36c0c70125d
   - enabled: 1
     path: Assets/David/Scenes/Main_Menu.unity
     guid: dbfbf7c1cb8360d48bae764b69684a5f
@@ -21,17 +15,14 @@ EditorBuildSettings:
     path: Assets/David/Scenes/Cut_Scene.unity
     guid: f42d9c6bc26577247a1422cc8f9fbe15
   - enabled: 1
-    path: Assets/David/Scenes/Level_1.unity
-    guid: 9ccdd0ff1393ed041b7b7940be3135f1
-  - enabled: 1
-    path: Assets/Nathan/Scenes/PlayerDeath.unity
-    guid: 36526820afe877c48bb88c902102d50b
-  - enabled: 1
     path: Assets/David/Scenes/Cut_Scene2.unity
     guid: fe7ca3cb58009ce4aaf126985e845dad
   - enabled: 1
-    path: Assets/David/Scenes/Level_2.unity
-    guid: abb3195397e420e4da6a530854100f5e
+    path: Assets/Erskine/Scenes/Lab_Lvl_3.unity
+    guid: 2e311a178db544d4b8e5074fccf6a761
+  - enabled: 1
+    path: Assets/Erskine/Scenes/VillageScene1.unity
+    guid: adbe02bab60517a45964e2ab65c4fa20
   - enabled: 1
     path: Assets/David/Scenes/Credit_Scene.unity
     guid: 78ade23694f4c2145846282f69a68e88

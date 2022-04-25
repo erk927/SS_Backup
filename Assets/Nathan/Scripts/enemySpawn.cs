@@ -28,15 +28,15 @@ public class enemySpawn : MonoBehaviour
         
             int num = Random.Range(0, 100);//Generate random number
 
-            if(num >= 90)//Spawn Elite
+            if(num >= 90)//Spawn Elite, Element 2
             {
                 Instantiate(enemies[0], gameObject.transform.position, Quaternion.identity);
             }
-            if(num < 90 && num >= 60)//Spawn 'Spitter'
+            if(num < 90 && num >= 60)//Spawn 'Spitter', Element 1
             {
                 Instantiate(enemies[1], gameObject.transform.position, Quaternion.identity);
             }
-            else //Spawn regular
+            else //Spawn regular, Element 0
             {
                 Instantiate(enemies[2], gameObject.transform.position, Quaternion.identity);
             }
