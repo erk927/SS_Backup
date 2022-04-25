@@ -87,7 +87,9 @@ public class PlayerDamage : MonoBehaviour
         if (playerHealth <= 0){
             Debug.Log("Player Died");
             Time.timeScale = 0;
-            Debug.Log("Finding deathMessage");
+           
+            Debug.Log("Attempting to make deathscene visible");
+            deathscene.SetActive(true);
             GameObject deathMessage = GameObject.FindGameObjectWithTag("deathMessage");
             if(deathMessage == null)
             {
@@ -107,8 +109,7 @@ public class PlayerDamage : MonoBehaviour
                     final.Score();
                 }
             }
-            Debug.Log("Attempting to make deathscene visible");
-            deathscene.SetActive(true);
+            
             GameObject score = GameObject.FindGameObjectWithTag("score");
             playerScore player = score.GetComponent<playerScore>();
             player.saveScore();
