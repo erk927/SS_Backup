@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ElitePlayerTracking : MonoBehaviour
 {
-    public float speed = 1f;//Enemy speed, shoud be able to modify it with a difficulty setting
+    public float speed = 1f;//Enemy speed, shoud be able to modify it with a difficulty settings
     public float lerpSpeed = 0.3f;
 
     [HideInInspector] public float angle;
