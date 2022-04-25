@@ -126,7 +126,7 @@ MonoBehaviour:
   range: 0.1
   intensity: 5
   speed: 80
-  lifeSpan: 50
+  lifeSpan: 5
 --- !u!114 &6423269980585484212
 MonoBehaviour:
   m_ObjectHideFlags: 0

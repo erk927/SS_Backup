@@ -8,7 +8,7 @@ public class ItemBob : MonoBehaviour
     [SerializeField]private float range = 0.1f; //range item bobs between
     [SerializeField]private float intensity = 5f; //speed item bobs at
     [SerializeField]private float speed = 80f; //item rotation speed
-    [SerializeField]private float lifeSpan = 50f;
+    [SerializeField]private float lifeSpan = 6f;
     private float originalYPos;
     private float newYPos;
 

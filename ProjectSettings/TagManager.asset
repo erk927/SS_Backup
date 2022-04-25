@@ -38,11 +38,11 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - Bullet
+  - Player
+  - Weapon
   - Enemy
-  - 
+  - Item
   - 
   - 
   - 
