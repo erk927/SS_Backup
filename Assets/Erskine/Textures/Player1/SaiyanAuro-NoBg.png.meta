@@ -1,0 +1,3576 @@
+fileFormatVersion: 2
+guid: 4a8666a257085dd4ebe2b0e99ed3d425
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 590212269024932401
+    second: SaiyanAuro-NoBg_0
+  - first:
+      213: 1708876291405739955
+    second: SaiyanAuro-NoBg_1
+  - first:
+      213: -8348734061866678532
+    second: SaiyanAuro-NoBg_2
+  - first:
+      213: -4949141109204656980
+    second: SaiyanAuro-NoBg_3
+  - first:
+      213: 2276854905881076078
+    second: SaiyanAuro-NoBg_4
+  - first:
+      213: 6755635495681798490
+    second: SaiyanAuro-NoBg_5
+  - first:
+      213: -2699258764125555473
+    second: SaiyanAuro-NoBg_6
+  - first:
+      213: 8082630819269141509
+    second: SaiyanAuro-NoBg_7
+  - first:
+      213: 4027197210814750084
+    second: SaiyanAuro-NoBg_8
+  - first:
+      213: 1111472119319760837
+    second: SaiyanAuro-NoBg_9
+  - first:
+      213: -4012767101849948935
+    second: SaiyanAuro-NoBg_10
+  - first:
+      213: 5537427005967448504
+    second: SaiyanAuro-NoBg_11
+  - first:
+      213: 7161724748590473950
+    second: SaiyanAuro-NoBg_12
+  - first:
+      213: -8765829769659927750
+    second: SaiyanAuro-NoBg_13
+  - first:
+      213: 5792613904386100845
+    second: SaiyanAuro-NoBg_14
+  - first:
+      213: -3268059459858283080
+    second: SaiyanAuro-NoBg_15
+  - first:
+      213: 7242352066474619094
+    second: SaiyanAuro-NoBg_16
+  - first:
+      213: 1998041139054721347
+    second: SaiyanAuro-NoBg_17
+  - first:
+      213: 1287811095980242931
+    second: SaiyanAuro-NoBg_18
+  - first:
+      213: 7116547548833969632
+    second: SaiyanAuro-NoBg_19
+  - first:
+      213: 5635354647588724530
+    second: SaiyanAuro-NoBg_20
+  - first:
+      213: 1104792141471960075
+    second: SaiyanAuro-NoBg_21
+  - first:
+      213: 2222948121673073089
+    second: SaiyanAuro-NoBg_22
+  - first:
+      213: -800426354855625087
+    second: SaiyanAuro-NoBg_23
+  - first:
+      213: 5070093531228445777
+    second: SaiyanAuro-NoBg_24
+  - first:
+      213: 2145783456052702817
+    second: SaiyanAuro-NoBg_25
+  - first:
+      213: -5458663126800545795
+    second: SaiyanAuro-NoBg_26
+  - first:
+      213: -8904643608644591497
+    second: SaiyanAuro-NoBg_27
+  - first:
+      213: -9069132958786407748
+    second: SaiyanAuro-NoBg_28
+  - first:
+      213: 2336559817239823000
+    second: SaiyanAuro-NoBg_29
+  - first:
+      213: -5993328817905428762
+    second: SaiyanAuro-NoBg_30
+  - first:
+      213: -7853737465628783394
+    second: SaiyanAuro-NoBg_31
+  - first:
+      213: 4191024477856481017
+    second: SaiyanAuro-NoBg_32
+  - first:
+      213: -8027606343998544503
+    second: SaiyanAuro-NoBg_33
+  - first:
+      213: -2434501644089724205
+    second: SaiyanAuro-NoBg_34
+  - first:
+      213: 2933560284964367907
+    second: SaiyanAuro-NoBg_35
+  - first:
+      213: 534196766986786455
+    second: SaiyanAuro-NoBg_36
+  - first:
+      213: -5073501939106996789
+    second: SaiyanAuro-NoBg_37
+  - first:
+      213: -3461546787227194920
+    second: SaiyanAuro-NoBg_38
+  - first:
+      213: 8611539083174476102
+    second: SaiyanAuro-NoBg_39
+  - first:
+      213: -3471926382505437146
+    second: SaiyanAuro-NoBg_40
+  - first:
+      213: 7124328142392297874
+    second: SaiyanAuro-NoBg_41
+  - first:
+      213: -1384530716335521130
+    second: SaiyanAuro-NoBg_42
+  - first:
+      213: 3341447790492146882
+    second: SaiyanAuro-NoBg_43
+  - first:
+      213: -2216010529993215797
+    second: SaiyanAuro-NoBg_44
+  - first:
+      213: -9126357024107266056
+    second: SaiyanAuro-NoBg_45
+  - first:
+      213: -7595126880833300983
+    second: SaiyanAuro-NoBg_46
+  - first:
+      213: -3571053911218444331
+    second: SaiyanAuro-NoBg_47
+  - first:
+      213: 7539090488911801898
+    second: SaiyanAuro-NoBg_48
+  - first:
+      213: -4136979332858165664
+    second: SaiyanAuro-NoBg_49
+  - first:
+      213: 4543622752688100707
+    second: SaiyanAuro-NoBg_50
+  - first:
+      213: 3993806048573738123
+    second: SaiyanAuro-NoBg_51
+  - first:
+      213: -5528240713163790375
+    second: SaiyanAuro-NoBg_52
+  - first:
+      213: -6793115755781977793
+    second: SaiyanAuro-NoBg_53
+  - first:
+      213: 8398149334122467493
+    second: SaiyanAuro-NoBg_54
+  - first:
+      213: 8775706615294122042
+    second: SaiyanAuro-NoBg_55
+  - first:
+      213: 4312685996529322114
+    second: SaiyanAuro-NoBg_56
+  - first:
+      213: -740630364307967407
+    second: SaiyanAuro-NoBg_57
+  - first:
+      213: -5215592329235222850
+    second: SaiyanAuro-NoBg_58
+  - first:
+      213: -4433758488167860279
+    second: SaiyanAuro-NoBg_59
+  - first:
+      213: 1700784460800984828
+    second: SaiyanAuro-NoBg_60
+  - first:
+      213: 8995579550800669421
+    second: SaiyanAuro-NoBg_61
+  - first:
+      213: 4119674839403826069
+    second: SaiyanAuro-NoBg_62
+  - first:
+      213: 197850396657863379
+    second: SaiyanAuro-NoBg_63
+  - first:
+      213: -3929371485058564350
+    second: SaiyanAuro-NoBg_64
+  - first:
+      213: 3211329746502576845
+    second: SaiyanAuro-NoBg_65
+  - first:
+      213: 407531613673478268
+    second: SaiyanAuro-NoBg_66
+  - first:
+      213: 6614275409813389116
+    second: SaiyanAuro-NoBg_67
+  - first:
+      213: -2708424479317415476
+    second: SaiyanAuro-NoBg_68
+  - first:
+      213: -2682681137379442575
+    second: SaiyanAuro-NoBg_69
+  - first:
+      213: 8790286824033501371
+    second: SaiyanAuro-NoBg_70
+  - first:
+      213: 1726447661379130273
+    second: SaiyanAuro-NoBg_71
+  - first:
+      213: -1619631496596224094
+    second: SaiyanAuro-NoBg_72
+  - first:
+      213: 6218173843009400962
+    second: SaiyanAuro-NoBg_73
+  - first:
+      213: 4523569565317825206
+    second: SaiyanAuro-NoBg_74
+  - first:
+      213: 4837324748022647266
+    second: SaiyanAuro-NoBg_75
+  - first:
+      213: 6571794861400619508
+    second: SaiyanAuro-NoBg_76
+  - first:
+      213: -4334914947487023443
+    second: SaiyanAuro-NoBg_77
+  - first:
+      213: 7299890508263240220
+    second: SaiyanAuro-NoBg_78
+  - first:
+      213: -7593517236731853055
+    second: SaiyanAuro-NoBg_79
+  - first:
+      213: -2498580876053882477
+    second: SaiyanAuro-NoBg_80
+  - first:
+      213: -7501964488642561490
+    second: SaiyanAuro-NoBg_81
+  - first:
+      213: 6763327672374877718
+    second: SaiyanAuro-NoBg_82
+  - first:
+      213: -1984825954014772439
+    second: SaiyanAuro-NoBg_83
+  - first:
+      213: 4974918237789877354
+    second: SaiyanAuro-NoBg_84
+  - first:
+      213: -3539046259608559496
+    second: SaiyanAuro-NoBg_85
+  - first:
+      213: 7842401885344001672
+    second: SaiyanAuro-NoBg_86
+  - first:
+      213: 1313292739068683459
+    second: SaiyanAuro-NoBg_87
+  - first:
+      213: 4467467076257860915
+    second: SaiyanAuro-NoBg_88
+  - first:
+      213: -1426966933679565506
+    second: SaiyanAuro-NoBg_89
+  - first:
+      213: 6859481901435876716
+    second: SaiyanAuro-NoBg_90
+  - first:
+      213: -292108057439225028
+    second: SaiyanAuro-NoBg_91
+  - first:
+      213: -2327804112530378055
+    second: SaiyanAuro-NoBg_92
+  - first:
+      213: 416946333927334199
+    second: SaiyanAuro-NoBg_93
+  - first:
+      213: 2861042093932537448
+    second: SaiyanAuro-NoBg_94
+  - first:
+      213: 7924143407462204158
+    second: SaiyanAuro-NoBg_95
+  - first:
+      213: 2715883126969216757
+    second: SaiyanAuro-NoBg_96
+  - first:
+      213: 3912120146226288246
+    second: SaiyanAuro-NoBg_97
+  - first:
+      213: -1594389152746570113
+    second: SaiyanAuro-NoBg_98
+  - first:
+      213: 6469530877474373155
+    second: SaiyanAuro-NoBg_99
+  - first:
+      213: 7901536020557453731
+    second: SaiyanAuro-NoBg_100
+  - first:
+      213: 2141495830826110552
+    second: SaiyanAuro-NoBg_101
+  - first:
+      213: -4925539395985649271
+    second: SaiyanAuro-NoBg_102
+  - first:
+      213: -6326941818682967242
+    second: SaiyanAuro-NoBg_103
+  - first:
+      213: 3489484397975297845
+    second: SaiyanAuro-NoBg_104
+  - first:
+      213: -8527116442409173066
+    second: SaiyanAuro-NoBg_105
+  - first:
+      213: 2261851640764809008
+    second: SaiyanAuro-NoBg_106
+  - first:
+      213: -3547836198465785475
+    second: SaiyanAuro-NoBg_107
+  - first:
+      213: 6417026008933517504
+    second: SaiyanAuro-NoBg_108
+  - first:
+      213: 1118617917935757810
+    second: SaiyanAuro-NoBg_109
+  - first:
+      213: -8914782857789082844
+    second: SaiyanAuro-NoBg_110
+  - first:
+      213: -442313866565273892
+    second: SaiyanAuro-NoBg_111
+  - first:
+      213: 7883033581911597276
+    second: SaiyanAuro-NoBg_112
+  - first:
+      213: 5287711020850991705
+    second: SaiyanAuro-NoBg_113
+  - first:
+      213: -4403455864748456385
+    second: SaiyanAuro-NoBg_114
+  - first:
+      213: -6882506339421575124
+    second: SaiyanAuro-NoBg_115
+  - first:
+      213: 6197301895841609223
+    second: SaiyanAuro-NoBg_116
+  - first:
+      213: -3527176970301621933
+    second: SaiyanAuro-NoBg_117
+  - first:
+      213: 7598808505517347942
+    second: SaiyanAuro-NoBg_118
+  - first:
+      213: -8353200941598974699
+    second: SaiyanAuro-NoBg_119
+  - first:
+      213: -2050895119400306911
+    second: SaiyanAuro-NoBg_120
+  - first:
+      213: -2662624588053645608
+    second: SaiyanAuro-NoBg_121
+  - first:
+      213: 5991947785064407378
+    second: SaiyanAuro-NoBg_122
+  - first:
+      213: 4675195116445807225
+    second: SaiyanAuro-NoBg_123
+  - first:
+      213: 8700517829649504693
+    second: SaiyanAuro-NoBg_124
+  - first:
+      213: 1030938715819346656
+    second: SaiyanAuro-NoBg_125
+  - first:
+      213: 2961647237954334828
+    second: SaiyanAuro-NoBg_126
+  - first:
+      213: -7331872077910183718
+    second: SaiyanAuro-NoBg_127
+  - first:
+      213: -1414496736937075046
+    second: SaiyanAuro-NoBg_128
+  - first:
+      213: 2729809338714182552
+    second: SaiyanAuro-NoBg_129
+  - first:
+      213: -7322534975095820300
+    second: SaiyanAuro-NoBg_130
+  - first:
+      213: -2167367527453754222
+    second: SaiyanAuro-NoBg_131
+  - first:
+      213: 677618892036151323
+    second: SaiyanAuro-NoBg_132
+  - first:
+      213: -8191716784593694797
+    second: SaiyanAuro-NoBg_133
+  - first:
+      213: -8583687362149181804
+    second: SaiyanAuro-NoBg_134
+  - first:
+      213: 2149395806869900515
+    second: SaiyanAuro-NoBg_135
+  - first:
+      213: -1909803426476724214
+    second: SaiyanAuro-NoBg_136
+  - first:
+      213: -4896964162048744021
+    second: SaiyanAuro-NoBg_137
+  - first:
+      213: -5525305215666524576
+    second: SaiyanAuro-NoBg_138
+  - first:
+      213: -8009648735932391552
+    second: SaiyanAuro-NoBg_139
+  - first:
+      213: -628581792784822589
+    second: SaiyanAuro-NoBg_140
+  - first:
+      213: 6592603543531213844
+    second: SaiyanAuro-NoBg_141
+  - first:
+      213: 6392104127712484679
+    second: SaiyanAuro-NoBg_142
+  - first:
+      213: 9107992386986484619
+    second: SaiyanAuro-NoBg_143
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132fe4d7eead03800800000000000000
+      internalID: 590212269024932401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 500
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7735adee527b710800000000000000
+      internalID: 1708876291405739955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 501
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf68b3eaa96532c80800000000000000
+      internalID: -8348734061866678532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 503
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacd292026e115bb0800000000000000
+      internalID: -4949141109204656980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 500
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61a52e3973099f10800000000000000
+      internalID: 2276854905881076078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_5
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 499
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a513220c0b6d0cd50800000000000000
+      internalID: 6755635495681798490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_6
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 499
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4bf6f847e4a8ad0800000000000000
+      internalID: -2699258764125555473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 499
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504692118e54b2070800000000000000
+      internalID: 8082630819269141509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_8
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 500
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d9e07b68a73e730800000000000000
+      internalID: 4027197210814750084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_9
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 499
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf0ec1f00ebc6f00800000000000000
+      internalID: 1111472119319760837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_10
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 501
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc2cd7d499cf48c0800000000000000
+      internalID: -4012767101849948935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_11
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 499
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9385cf584e8dc40800000000000000
+      internalID: 5537427005967448504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 457
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2ebd2e6be836360800000000000000
+      internalID: 7161724748590473950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 457
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3330e19444895680800000000000000
+      internalID: -8765829769659927750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 457
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e0cebc7af736050800000000000000
+      internalID: 5792613904386100845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 457
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5ca467c3585a2d0800000000000000
+      internalID: -3268059459858283080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_16
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 456
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0398435d0028460800000000000000
+      internalID: 7242352066474619094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_17
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 456
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34939f374d77abb10800000000000000
+      internalID: 1998041139054721347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_18
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 457
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f775b16e593fd110800000000000000
+      internalID: 1287811095980242931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_19
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 459
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5fc636a4e03c260800000000000000
+      internalID: 7116547548833969632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_20
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 457
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f5fd0d13dc43e40800000000000000
+      internalID: 5635354647588724530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_21
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 457
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c44176992055f00800000000000000
+      internalID: 1104792141471960075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 457
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1027af98f79de10800000000000000
+      internalID: 2222948121673073089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 457
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e38f9987054e4f0800000000000000
+      internalID: -800426354855625087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c90e244379c5640800000000000000
+      internalID: 5070093531228445777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_25
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 409
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e6ee63faa57cd10800000000000000
+      internalID: 2145783456052702817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_26
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 411
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7c782beceee34b0800000000000000
+      internalID: -5458663126800545795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_27
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 412
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770694711d95c6480800000000000000
+      internalID: -8904643608644591497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_28
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 411
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2bfb2df97f32280800000000000000
+      internalID: -9069132958786407748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_29
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 409
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892080f26c02d6020800000000000000
+      internalID: 2336559817239823000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_30
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 410
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e692a2b13b63dca0800000000000000
+      internalID: -5993328817905428762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_31
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 412
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc050ac26be10390800000000000000
+      internalID: -7853737465628783394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_32
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 411
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe3a9fbe82892a30800000000000000
+      internalID: 4191024477856481017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_33
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 411
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9856b4def86389090800000000000000
+      internalID: -8027606343998544503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_34
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 409
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d27dea37a9e63ed0800000000000000
+      internalID: -2434501644089724205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_35
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 409
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32eae78598916b820800000000000000
+      internalID: 2933560284964367907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 364
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796d8681129d96700800000000000000
+      internalID: 534196766986786455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_37
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 363
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd9540fddc4799b0800000000000000
+      internalID: -5073501939106996789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_38
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 364
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9aded798d16ffc0800000000000000
+      internalID: -3461546787227194920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_39
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 366
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649f1069b25528770800000000000000
+      internalID: 8611539083174476102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_40
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 364
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628d474a95d31dfc0800000000000000
+      internalID: -3471926382505437146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_41
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 364
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2998c9ef2b2bed260800000000000000
+      internalID: 7124328142392297874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_42
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 364
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692443826a829cce0800000000000000
+      internalID: -1384530716335521130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_43
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 364
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc5ccbcf053f5e20800000000000000
+      internalID: 3341447790492146882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_44
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 364
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0ba35f9262f31e0800000000000000
+      internalID: -2216010529993215797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_45
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 364
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fff1bcd3aaa85180800000000000000
+      internalID: -9126357024107266056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_46
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 365
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90619e3b750b89690800000000000000
+      internalID: -7595126880833300983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_47
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 367
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d72e045361117ec0800000000000000
+      internalID: -3571053911218444331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e2d191bda30a860800000000000000
+      internalID: 7539090488911801898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_49
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 319
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0664bd5273f7696c0800000000000000
+      internalID: -4136979332858165664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_50
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 320
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3655b5702d03e0f30800000000000000
+      internalID: 4543622752688100707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_51
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 322
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c4b0be079dc6730800000000000000
+      internalID: 3993806048573738123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_52
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 319
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7250b7c5eb743b0800000000000000
+      internalID: -5528240713163790375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_53
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 319
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39818a26310ab1a0800000000000000
+      internalID: -6793115755781977793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_54
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 320
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a09d07f2583c8470800000000000000
+      internalID: 8398149334122467493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_55
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 322
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38d6a1cba299c970800000000000000
+      internalID: 8775706615294122042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_56
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 319
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2888ee2701db9db30800000000000000
+      internalID: 4312685996529322114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_57
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 319
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1523e819b90c8b5f0800000000000000
+      internalID: -740630364307967407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebeaea2f86e7e97b0800000000000000
+      internalID: -5215592329235222850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_59
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 322
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7b1e465202872c0800000000000000
+      internalID: -4433758488167860279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf60c89b4766a9710800000000000000
+      internalID: 1700784460800984828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_61
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 274
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaed3ad0f7b6dc70800000000000000
+      internalID: 8995579550800669421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_62
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 275
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b87c080760c2930800000000000000
+      internalID: 4119674839403826069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_63
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 276
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da467333e7eeb200800000000000000
+      internalID: 197850396657863379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_64
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 276
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ff88af3711879c0800000000000000
+      internalID: -3929371485058564350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_65
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 274
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca6eecd36fe09c20800000000000000
+      internalID: 3211329746502576845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_66
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 275
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78dfbbe7d7d7a500800000000000000
+      internalID: 407531613673478268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_67
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 276
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f3788f070aacb50800000000000000
+      internalID: 6614275409813389116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_68
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 274
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc92051394eb96ad0800000000000000
+      internalID: -2708424479317415476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_69
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 274
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1708bd018b335cad0800000000000000
+      internalID: -2682681137379442575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_70
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 275
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb040542b4f5df970800000000000000
+      internalID: 8790286824033501371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_71
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 276
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a39ecb300395f710800000000000000
+      internalID: 1726447661379130273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 233
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7095a2cb9e589e0800000000000000
+      internalID: -1619631496596224094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_73
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 232
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28073383a246b4650800000000000000
+      internalID: 6218173843009400962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_74
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 231
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b289818d82f6ce30800000000000000
+      internalID: 4523569565317825206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_75
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 231
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e98815aa31a12340800000000000000
+      internalID: 4837324748022647266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_76
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 234
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9758a8b94b33b50800000000000000
+      internalID: 6571794861400619508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_77
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 231
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae318792d947d3c0800000000000000
+      internalID: -4334914947487023443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_78
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 232
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12b644adbb6e4560800000000000000
+      internalID: 7299890508263240220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_79
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 234
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107cacc2e486e9690800000000000000
+      internalID: -7593517236731853055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_80
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 231
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39959386ee1435dd0800000000000000
+      internalID: -2498580876053882477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_81
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 231
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a7dd07b0ba3e790800000000000000
+      internalID: -7501964488642561490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_82
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 232
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e59733faa2cdd50800000000000000
+      internalID: 6763327672374877718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_83
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 234
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92349f59f4b7474e0800000000000000
+      internalID: -1984825954014772439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64f31e67c57a0540800000000000000
+      internalID: 4974918237789877354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_85
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 185
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8706b547d28c2eec0800000000000000
+      internalID: -3539046259608559496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_86
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 186
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e68c1c6fec5dc60800000000000000
+      internalID: 7842401885344001672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_87
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 188
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4e94eb9c0c93210800000000000000
+      internalID: 1313292739068683459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_88
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 185
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d4a1ed2a1affd30800000000000000
+      internalID: 4467467076257860915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_89
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 185
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e351dcb5225623ce0800000000000000
+      internalID: -1426966933679565506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_90
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 186
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c657e4e3276c13f50800000000000000
+      internalID: 6859481901435876716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_91
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 188
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b3e48f44932fbf0800000000000000
+      internalID: -292108057439225028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_92
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 188
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2feed2e7af1bfd0800000000000000
+      internalID: -2327804112530378055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_93
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 185
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731e32c4b7a49c500800000000000000
+      internalID: 416946333927334199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_94
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 186
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866e94040a674b720800000000000000
+      internalID: 2861042093932537448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_95
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 188
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2c907f17638fd60800000000000000
+      internalID: 7924143407462204158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe2a7a8051c0b520800000000000000
+      internalID: 2715883126969216757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_97
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 140
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6769772bb84aa4630800000000000000
+      internalID: 3912120146226288246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_98
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 141
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7efdc453879fd9e0800000000000000
+      internalID: -1594389152746570113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_99
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 143
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ef7475e0468c950800000000000000
+      internalID: 6469530877474373155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_100
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 140
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9d7458525e7ad60800000000000000
+      internalID: 7901536020557453731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_101
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 140
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ece5cac1f18bd10800000000000000
+      internalID: 2141495830826110552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_102
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 141
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98155171408f4abb0800000000000000
+      internalID: -4925539395985649271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_103
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 143
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b76deffef2238a0800000000000000
+      internalID: -6326941818682967242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_104
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 143
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fd59662932d6030800000000000000
+      internalID: 3489484397975297845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_105
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 140
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bffec336c899a980800000000000000
+      internalID: -8527116442409173066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_106
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 142
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fbb6e5516b36f10800000000000000
+      internalID: 2261851640764809008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_107
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 143
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71bc2556cd83cec0800000000000000
+      internalID: -3547836198465785475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8cce0082bdd0950800000000000000
+      internalID: 6417026008933517504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_109
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 94
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9a2f5d111268f00800000000000000
+      internalID: 1118617917935757810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_110
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 95
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4237dbf2934584480800000000000000
+      internalID: -8914782857789082844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_111
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 96
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6b520c1e59cd9f0800000000000000
+      internalID: -442313866565273892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_112
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 93
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0e052d649266d60800000000000000
+      internalID: 7883033581911597276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_113
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 93
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952ddb07829b16940800000000000000
+      internalID: 5287711020850991705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_114
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 95
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36ce85b838c3e2c0800000000000000
+      internalID: -4403455864748456385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_115
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28276a03fc6c70a0800000000000000
+      internalID: -6882506339421575124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_116
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 94
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7067e735d3d310650800000000000000
+      internalID: 6197301895841609223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_117
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 94
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359bb39bb33fc0fc0800000000000000
+      internalID: -3527176970301621933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_118
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 95
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66414975314647960800000000000000
+      internalID: 7598808505517347942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_119
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 97
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dd8823008731c80800000000000000
+      internalID: -8353200941598974699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127ff8841c1c983e0800000000000000
+      internalID: -2050895119400306911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_121
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 47
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d677da5b057c0bd0800000000000000
+      internalID: -2662624588053645608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_122
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 48
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251e37983cca72350800000000000000
+      internalID: 5991947785064407378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_123
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 50
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972b46b2031a1e040800000000000000
+      internalID: 4675195116445807225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_124
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 47
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b916366ed27eb870800000000000000
+      internalID: 8700517829649504693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_125
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 47
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea0c95cc41ae4e00800000000000000
+      internalID: 1030938715819346656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_126
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 48
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60f840b872e91920800000000000000
+      internalID: 2961647237954334828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_127
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 50
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0fe89e035ff3a90800000000000000
+      internalID: -7331872077910183718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_128
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 51
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e9aea46b2be5ce0800000000000000
+      internalID: -1414496736937075046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_129
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 48
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8935a92612b32e520800000000000000
+      internalID: 2729809338714182552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_130
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 49
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff2a029c31216a90800000000000000
+      internalID: -7322534975095820300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_131
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 49
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cf66c87b6fbe1e0800000000000000
+      internalID: -2167367527453754222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1898e8cac2676900800000000000000
+      internalID: 677618892036151323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_133
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf00b96cfc215e80800000000000000
+      internalID: -8191716784593694797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_134
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496961c82dd90e880800000000000000
+      internalID: -8583687362149181804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_135
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 3
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecc13e291034dd10800000000000000
+      internalID: 2149395806869900515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_136
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00f706f6e30f75e0800000000000000
+      internalID: -1909803426476724214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_137
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba524433a0d7a0cb0800000000000000
+      internalID: -4896964162048744021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_138
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e65904e2c2253b0800000000000000
+      internalID: -5525305215666524576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_139
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 4
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fd71f59e208d090800000000000000
+      internalID: -8009648735932391552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_140
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce48c89034d647f0800000000000000
+      internalID: -628581792784822589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_141
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414d8256ef1ad7b50800000000000000
+      internalID: 6592603543531213844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_142
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d5c9b56d055b850800000000000000
+      internalID: 6392104127712484679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaiyanAuro-NoBg_143
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 4
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83aa4bd1d6166e70800000000000000
+      internalID: 9107992386986484619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

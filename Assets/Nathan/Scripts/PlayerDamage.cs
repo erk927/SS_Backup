@@ -22,6 +22,8 @@ public class PlayerDamage : MonoBehaviour
     //Star, itsa me, mama mia!
     private bool star = false;
 
+    private GameObject saiyan;//Saiyan Aura
+
     // Start is called before the first frame update
     void Start(){
         playerHealth = _MAXHEALTH;
@@ -37,11 +39,17 @@ public class PlayerDamage : MonoBehaviour
         shieldSlider.maxValue = _MAXHEALTH;
         shieldBar.SetActive(false);
         
+        //Invicibilty Aura
+        saiyan = GameObject.Find("SuperSaiyan");
+        saiyan.SetActive(false);
+        if (saiyan != null)
+            Debug.Log("here");
     }
 
     public void activateStar()
     {
         star = true;
+        saiyan.SetActive(true);
         Debug.Log("star is " + star);
         StartCoroutine(starTime());
     }
@@ -50,6 +58,7 @@ public class PlayerDamage : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         star = false;
+        saiyan.SetActive(false);
         Debug.Log("star is " + star + "should be false");
     }
 
