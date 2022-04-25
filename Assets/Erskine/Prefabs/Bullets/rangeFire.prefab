@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3413450037526991092}
   - component: {fileID: 188732152153901563}
   - component: {fileID: 2434625863198761775}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rangeFire
   m_TagString: enemyRanged
   m_Icon: {fileID: 0}
