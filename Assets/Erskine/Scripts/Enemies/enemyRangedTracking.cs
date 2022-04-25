@@ -20,12 +20,15 @@ public class enemyRangedTracking : MonoBehaviour
     private Transform barrel;
     bool canFire = true;
 
+    private EnemyRangedRotation direction;
+
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindWithTag("Player");//FInd the player object
         animator = gameObject.GetComponent<Animator>();
-        barrel = GameObject.FindWithTag("rangedBarrel").GetComponent<Transform>();;
+        // barrel = GameObject.FindWithTag("rangedBarrel").GetComponent<Transform>();
+        direction = gameObject.GetComponentInChildren<EnemyRangedRotation>();
     }
 
     // Update is called once per frame
@@ -60,15 +63,15 @@ public class enemyRangedTracking : MonoBehaviour
             animator.Play("range_enemy_walk");//failcase
     }
 
+    //Causes enemy to stand still and fire at set interval
     IEnumerator attack(){
         float orignalSpeed = speed;
         speed = 0;
-        GameObject bullet = Instantiate(pfBullet, barrel.position, barrel.rotation);
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.AddForce(barrel.right * bulletSpeed, ForceMode2D.Impulse);
+        StartCoroutine(direction.attack(pfBullet, bulletSpeed));
         yield return new WaitForSeconds(fireDelay);
         canFire = true;
         speed = orignalSpeed;
+        yield return null;
     }
 
     public float AngleBetweenPoints(Vector2 a, Vector2 b) {

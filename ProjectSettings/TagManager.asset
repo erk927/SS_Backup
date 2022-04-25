@@ -25,7 +25,8 @@ TagManager:
   - rangedBarrel
   - reticle
   - death
-  - deathMessage
+  - Enemy
+  - enemyElite
   layers:
   - Default
   - TransparentFX
@@ -40,7 +41,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Enemy
   - 
   - 
   - 
