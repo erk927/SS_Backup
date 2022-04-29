@@ -95,7 +95,6 @@ public class PlayerDamage : MonoBehaviour
 
         if (playerHealth <= 0){
             Debug.Log("Player Died");
-            Time.timeScale = 0;
            
             Debug.Log("Attempting to make deathscene visible");
             deathscene.SetActive(true);
